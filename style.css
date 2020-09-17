@@ -52,7 +52,7 @@
 		font-weight:400;
 	 }
 	 footer{
-		 background: var(--cG2);
+		 background: var(--cA1);
 		 height: 80px;
 	 }
 	 a{
@@ -81,6 +81,18 @@
 	}
 	.img-inicio{
 		width: 70%;
+	}
+	.active{
+		color: #15B1D7;
+	}
+	.btn-ind{
+		background: var(--cN1);	
+		transition: 0.5s;
+	}
+	.btn-ind:hover{
+		background: var(--cA2);	
+		color: #FFF;
+		transition: 0.5s;
 	}
 
 	
