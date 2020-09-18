@@ -6,7 +6,6 @@
 		box-sizing: border-box;
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
-
 	:root{
 	/* Colores */
 	--cN1:#F97304;
@@ -17,11 +16,9 @@
 	--cB1:#f1f1f1;
 	--cO1:#232830;
 	}
-
 	body{
 		background: #FFF;
 	}
-
 	h1{
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 800;
@@ -76,6 +73,9 @@
 	.fondo-1{
 		background-color: var(--cB1);
 	}
+	.fondo-colobora{
+		background-color: #bcecff;
+	}
 	.bg-box{
 		background-color: var(--cA3);
 	}
@@ -94,28 +94,27 @@
 		color: #FFF;
 		transition: 0.5s;
 	}
+	.info-text{
+		background: var(--cB2);
+	}
+	.text-muted{
+		font-family: 'Montserrat';
+	}
 
-	
-
-
-.info-text{
-	background: var(--cB2);
-}
-.text-muted{
-	font-family: 'Montserrat';
-}
-
-.card-info{
-	background: var(--cG2);
-	color: var(--cB1);
-}
-.comentarios{
-	padding: 3rem;
-	background: var(--cB2);
-}
-.btn-tool {
-	background-color: var(--cB1);
-}
-.btn-tool:hover{
-	background-color: var(--cN1);
-}
+	.card-info{
+		background: var(--cA1);
+		color: var(--cB1);
+	}
+	.comentarios{
+		padding: 3rem;
+		background: var(--cB2);
+	}
+	.btn-tool {
+		background-color: var(--cN1);
+		color: #FFF;
+	}
+	.btn-tool:hover{
+		background-color: var(--cA2);
+		color: #FFF;
+		transition: 0.5s;
+	}
